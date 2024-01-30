@@ -1,0 +1,29 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 10px groove black;
+}
+
+#RobinList {
+    color: #ff0000;
+}
+
+h1, h3 {
+    font-style: italic;
+}
+
+ul>li {
+    font-size: 120%;
+}
+
+a:link {
+    color: #0000ff;
+}
+
+a:hover, a:focus {
+    color: #008000;
+    
+}

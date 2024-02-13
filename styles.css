@@ -5,7 +5,7 @@
 }
 
 body {
-    
+
     font-family: Arial, Helvetica, sans-serif;
     margin: 80px 100px;
     padding: 20px 20px;
@@ -13,14 +13,16 @@ body {
 }
 
 img {
-    border: 10px groove black;
+    border: 1em groove black;
+    max-width: 30%;
 }
 
 #RobinList {
     color: #ff0000;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-style: italic;
 }
 
@@ -32,7 +34,37 @@ a:link {
     color: #0000ff;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #008000;
-    
+
 }
+
+/*nav menu top */
+#nav_menu ul{
+    list-style-type: none;
+    padding: 1em;
+    text-align: center;
+    border-top: 2em solid black;
+    border-bottom: 2em solid black;
+    background-color: #004300;
+  
+  }
+  #nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+  
+  }
+  #nav_menu ul li a {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+  }
+  #nav_menu ul li a.current { text-decoration: none;}
+  /*nav menu bottom*/
+  /* code to shrink the text with the size of the tab */
+  @media screen and (max-width: 796px) {
+    body{
+        font-size: 10px;
+    }
+    
+  }

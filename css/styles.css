@@ -1,10 +1,11 @@
 :root {
-    height: 250%;
+
     background: linear-gradient(to bottom, rgb(255, 0, 0), #000000, #000000);
 
 }
 
 body {
+    margin: 0px;
     text-align: center;
     color: #FFF3EB;
     /*makes font readable*/
@@ -59,6 +60,26 @@ main {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/*TABLE*/
+table {
+    color: #FFF3EB;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: .2em .7em;
+    text-align: right;
+}
+
+th.left,
+td.left {
+    text-align: left;
+}
+
+
 img {
     border: 0.2em groove black;
     max-width: 30%;
@@ -89,17 +110,18 @@ a:focus {
 
 }
 
-footer{
+footer {
     background-color: #000000;
 }
 
-/*nav menu top */
+/*nav menu top *
 #nav_menu ul {
+    margin: 0px;
     list-style-type: none;
     padding: 1em;
     text-align: center;
-    border-top: 2em solid black;
-    border-bottom: 2em solid black;
+    border-top: 2em solid yellow;
+    border-bottom: 2em solid yellow;
     background-color: #004300;
 
 
@@ -110,7 +132,7 @@ footer{
     align-content: center;
     list-style-type: none;
     width: 100%;
-    height: 100px;
+    height: 100%;
 
 
 }
@@ -124,6 +146,7 @@ footer{
     color: white;
     font-weight: bold;
     border-right: 2px solid white;
+    border-left: 2px solid white;
 
 }
 
@@ -132,31 +155,37 @@ footer{
 
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgb(255, 0, 0);
+    color: white;
 }
 
 #nav_menu ul li a.current {
     text-decoration: none;
 }
 
-/*nav menu bottom*/
+/*nav menu bottom*
 
 @media screen and (max-width: 796px) {
     #nav_menu ul {
         display: flex;
         flex-direction: column;
-        /* Change to vertical layout */
+        /* Change to vertical layout *
         align-items: center;
-        /* Center items horizontally */
+        /* Center items horizontally *
     }
 
     body {
         font-size: 10px;
-        /* code to shrink the text with the size of the tab */
+        /* code to shrink the text with the size of the tab *
     }
 
     .grid-container {
         font-size: 10px;
     }
 
+}*/
+
+@media screen and (max-width: 796px) {
+    .grid-container {
+        font-size: 10px;
+    }
 }

@@ -17,8 +17,8 @@ main {
     color: #000000;
     font-family: "Kode Mono", monospace;
     /*font-family: Arial, Helvetica, sans-serif;*/
-    margin: 80px 100px;
-    padding: 20px 20px;
+    margin: 5em 6em; /*adjusted for readablity on mobile*/
+    padding: 1em 1em;
 
 
 }
@@ -78,6 +78,7 @@ th.left,
 td.left {
     text-align: left;
 }
+
 
 
 img {

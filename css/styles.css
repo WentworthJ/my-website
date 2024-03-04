@@ -189,4 +189,15 @@ footer {
     .grid-container {
         font-size: 10px;
     }
+
+    .grid-container {
+
+       
+        grid-template-columns: auto;
+        /* defines a 1 column grid, added as suggestion from peer review*/
+        grid-gap: 1.5em;
+        /* gap between grid items */
+        padding: 1.5em;
+    }
+    
 }

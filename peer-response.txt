@@ -1,0 +1,8 @@
+Hailey Brown (She/Her)
+when I click the other two subpages, the navigation menu changes into a slightly smaller size, so I think your might ought to take a look at the functionality of it
+
+For the first suggestion I changed the padding for the nav_menu ul li in nav.css to px instead of em.
+
+on the Todd page, I would recommend you put some more information about Todd above the fold line.
+
+For the second suggestion I decreased the size of the image so that there was more room for text above the fold line

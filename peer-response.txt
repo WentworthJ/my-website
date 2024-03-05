@@ -1,8 +1,20 @@
-Hailey Brown (She/Her)
-when I click the other two subpages, the navigation menu changes into a slightly smaller size, so I think your might ought to take a look at the functionality of it
 
-For the first suggestion I changed the padding for the nav_menu ul li in nav.css to px instead of em.
+SUGGESTIONS
+1 when I click the other two subpages, the navigation menu changes into a slightly smaller size, so I think your might ought to take a look at the functionality of it
 
-on the Todd page, I would recommend you put some more information about Todd above the fold line.
+2 on the Todd page, I would recommend you put some more information about Todd above the fold line.
 
-For the second suggestion I decreased the size of the image so that there was more room for text above the fold line
+3 One thing i would fix is how far you can scroll down passed your footer into black space, by removing the "height: 250%;" inside the "root" of your CSS.
+
+4 One other thing you could change is moving your navigation bar all the way to the top instead of having a small red bar at the very top of your page. Keep up the good work!
+
+
+changes
+
+#1 I changed the padding for the nav_menu ul li in nav.css to px instead of em.
+
+#2 I decreased the size of the image so that there was more room for text above the fold line
+
+#3 I used the suggestion and removed the "height" values from each css file.
+
+#4 The margins were using default values because I hadn't assigned any so I added the "margin: 0px;" line to the nav.css file

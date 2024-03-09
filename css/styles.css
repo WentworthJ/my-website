@@ -51,6 +51,18 @@ main {
     margin-top: 0;
 }
 
+.grid-item h3 {
+    color: #000000;
+    margin-top: 0;
+    font-size: medium;
+}
+
+.grid-item li {
+    color: #000000;
+    margin-top: 0;
+    font-size: medium;
+}
+
 .grid-item p {
     font-size: 16px;
     line-height: 1.6;
@@ -61,24 +73,7 @@ main {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/*TABLE*/
-table {
-    color: #FFF3EB;
-    border: 1px solid white;
-    border-collapse: collapse;
-}
 
-th,
-td {
-    border: 1px solid white;
-    padding: .2em .7em;
-    text-align: right;
-}
-
-th.left,
-td.left {
-    text-align: left;
-}
 
 
 

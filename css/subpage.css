@@ -53,9 +53,12 @@ footer {
 
 
 @media screen and (max-width: 796px) {
+
     main,
     aside {
-        width: 100%; /* Set both main and aside to full width */
-        float: none; /* Remove float */
+        width: 100%;
+        /* Set both main and aside to full width */
+        float: none;
+        /* Remove float */
     }
 }

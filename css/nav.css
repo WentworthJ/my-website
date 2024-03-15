@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    /*added to remove the margin according to the suggestion*/
+
 }
 
 /*nav menu top */
@@ -28,9 +28,7 @@ body {
 
 #nav_menu ul li {
     display: inline;
-    /*padding: 1em 1em;    This makes the padding change on the main page*/
     padding: 16px 16px;
-    /*This one doesn't change the appearance between pages but is not flexible*/
     float: left;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
@@ -63,13 +61,13 @@ body {
 
 /*nav menu bottom*/
 
+
+/*Media query for small screens*/
 @media screen and (max-width: 796px) {
     #nav_menu ul {
         display: flex;
-        flex-direction: column;
-        /* Change to vertical layout */
+        flex-direction: wrap;
         align-items: center;
-        /* Center items horizontally */
     }
 
     body {

@@ -8,22 +8,21 @@ body {
     margin: 0px;
     text-align: center;
     color: #FFF3EB;
-    /*makes font readable*/
 }
 
+/*<--------------------MAIN----------------------->*/
 
 main {
 
     color: #000000;
     font-family: "Kode Mono", monospace;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     margin: 5em 6em;
-    /*adjusted for readablity on mobile*/
     padding: 1em 1em;
 
 
 }
 
+/*Grid Layout*/
 .grid-container {
 
     display: grid;
@@ -107,11 +106,13 @@ a:focus {
 
 }
 
+/*FOOTER*/
+
 footer {
     background-color: #000000;
 }
 
-
+/*MEDIA QEURY FOR SMALL SCREENS*/
 @media screen and (max-width: 896px) {
     .grid-container {
         font-size: 10px;
